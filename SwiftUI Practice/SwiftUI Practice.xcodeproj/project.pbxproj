@@ -12,6 +12,7 @@
 		76D922CE29ACC3F6006B2333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D922CD29ACC3F6006B2333 /* Assets.xcassets */; };
 		76D922D129ACC3F6006B2333 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D922D029ACC3F6006B2333 /* Preview Assets.xcassets */; };
 		76D922D929ACD17B006B2333 /* ViewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D922D829ACD17B006B2333 /* ViewComposition.swift */; };
+		76D922DB29ACD28D006B2333 /* CustomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D922DA29ACD28D006B2333 /* CustomModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		76D922CD29ACC3F6006B2333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76D922D029ACC3F6006B2333 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		76D922D829ACD17B006B2333 /* ViewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComposition.swift; sourceTree = "<group>"; };
+		76D922DA29ACD28D006B2333 /* CustomModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				76D922D829ACD17B006B2333 /* ViewComposition.swift */,
+				76D922DA29ACD28D006B2333 /* CustomModifier.swift */,
 			);
 			path = ViewsAndModifiers;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76D922CC29ACC3F5006B2333 /* ContentView.swift in Sources */,
+				76D922DB29ACD28D006B2333 /* CustomModifier.swift in Sources */,
 				76D922D929ACD17B006B2333 /* ViewComposition.swift in Sources */,
 				76D922CA29ACC3F5006B2333 /* SwiftUI_PracticeApp.swift in Sources */,
 			);
